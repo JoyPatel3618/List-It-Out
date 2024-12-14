@@ -1,10 +1,9 @@
-/* Global Styles */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background: #FFF0DC; /* first-color */
-  color: #543A14; /* third-color */
+  background: #FFF0DC; 
+  color: #543A14; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +11,7 @@ body {
   height: 100vh;
 }
 
-/* Header */
+
 .header {
   text-align: center;
   margin-bottom: 20px;
@@ -20,12 +19,11 @@ body {
 
 .header h1 {
   font-size: 2rem;
-  color: #131010; /* fourth-color */
+  color: #131010; 
 }
 
-/* Container Styles */
 .todo-container {
-  background: #F0BB78; /* second-color */
+  background: #F0BB78; 
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
@@ -43,22 +41,22 @@ body {
 input {
   flex: 1;
   padding: 10px;
-  border: 2px solid #543A14; /* third-color */
+  border: 2px solid #543A14; 
   border-radius: 8px;
-  background: #FFF0DC; /* first-color */
-  color: #543A14; /* third-color */
+  background: #FFF0DC; 
+  color: #543A14; 
   font-size: 1rem;
 }
 
 input::placeholder {
-  color: #543A14; /* third-color */
+  color: #543A14; 
   font-style: italic;
 }
 
 button {
   padding: 10px 15px;
-  background: #543A14; /* third-color */
-  color: #FFF0DC; /* first-color */
+  background: #543A14; 
+  color: #FFF0DC;
   border: none;
   border-radius: 8px;
   font-size: 1rem;
@@ -68,11 +66,10 @@ button {
 }
 
 button:hover {
-  background: #131010; /* fourth-color */
+  background: #131010; 
   transform: scale(1.05);
 }
 
-/* To-Do List Styles */
 ul {
   list-style: none;
   padding: 0;
@@ -82,7 +79,7 @@ ul {
 }
 
 li {
-  background: #543A14; /* third-color */
+  background: #543A14;
   margin: 10px 0;
   padding: 10px 15px;
   display: flex;
@@ -90,18 +87,18 @@ li {
   align-items: center;
   border-radius: 8px;
   transition: transform 0.2s ease, background 0.3s ease;
-  color: #FFF0DC; /* first-color */
+  color: #FFF0DC; 
 }
 
 li:hover {
-  background: #131010; /* fourth-color */
+  background: #131010; 
   transform: scale(1.02);
 }
 
 .delete-btn {
   padding: 5px 10px;
-  background: #131010; /* fourth-color */
-  color: #FFF0DC; /* first-color */
+  background: #131010; 
+  color: #FFF0DC; 
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -110,31 +107,29 @@ li:hover {
 }
 
 .delete-btn:hover {
-  background: #F0BB78; /* second-color */
-  color: #543A14; /* third-color */
+  background: #F0BB78; 
+  color: #543A14; 
   transform: scale(1.1);
 }
 
-/* Scrollbar Styles */
 ul::-webkit-scrollbar {
   width: 8px;
 }
 
 ul::-webkit-scrollbar-thumb {
-  background: #543A14; /* third-color */
+  background: #543A14; 
   border-radius: 5px;
 }
 
 ul::-webkit-scrollbar-thumb:hover {
-  background: #131010; /* fourth-color */
+  background: #131010; 
 }
 
-/* Footer */
 .footer {
   margin-top: 20px;
   text-align: center;
   font-size: 0.9rem;
-  color: #543A14; /* third-color */
+  color: #543A14; 
 }
 
 .footer p {

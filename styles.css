@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #FFF0DC; /* first-color */
+  color: #543A14; /* third-color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #131010; /* fourth-color */
+}
+
+/* Container Styles */
+.todo-container {
+  background: #F0BB78; /* second-color */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #543A14; /* third-color */
+  border-radius: 8px;
+  background: #FFF0DC; /* first-color */
+  color: #543A14; /* third-color */
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: #543A14; /* third-color */
+  font-style: italic;
+}
+
+button {
+  padding: 10px 15px;
+  background: #543A14; /* third-color */
+  color: #FFF0DC; /* first-color */
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #131010; /* fourth-color */
+  transform: scale(1.05);
+}
+
+/* To-Do List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+li {
+  background: #543A14; /* third-color */
+  margin: 10px 0;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background 0.3s ease;
+  color: #FFF0DC; /* first-color */
+}
+
+li:hover {
+  background: #131010; /* fourth-color */
+  transform: scale(1.02);
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background: #131010; /* fourth-color */
+  color: #FFF0DC; /* first-color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.delete-btn:hover {
+  background: #F0BB78; /* second-color */
+  color: #543A14; /* third-color */
+  transform: scale(1.1);
+}
+
+/* Scrollbar Styles */
+ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background: #543A14; /* third-color */
+  border-radius: 5px;
+}
+
+ul::-webkit-scrollbar-thumb:hover {
+  background: #131010; /* fourth-color */
+}
+
+/* Footer */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #543A14; /* third-color */
+}
+
+.footer p {
+  margin: 0;
+}
